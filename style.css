@@ -243,7 +243,37 @@ address h4 {
   padding: 10px 0;
 }
 
-/* Desktops */
+/* for landscape phones and portrait tablets */
+@media (min-width: 480px) {
+  h1 {
+    font-size: 5rem;
+  }
+  
+  .site-title p {
+    font-size: 1.4rem;
+  }
+
+  .site-title {
+    top: 250px;
+  }
+}
+
+/* for tablets and small desktops */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 7rem;
+  }
+
+  .site-title p {
+    font-size: 2rem;
+  }
+
+  .site-title {
+    top: 400px;
+  }
+}
+
+/* for desktops */
 @media (min-width: 940px) {
   header {
     background-image: url('./images/header-bg.jpg');
