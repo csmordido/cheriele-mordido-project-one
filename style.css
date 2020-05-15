@@ -173,6 +173,11 @@ h2 {
   padding-right: 0;
 }
 
+.footer-nav a {
+  font: 1.1rem Italiana, serif;
+  text-transform: uppercase;
+}
+
 h4 {
   font-size: 1.4rem;
   text-align: center;
@@ -415,11 +420,6 @@ address h4 {
     padding-right: 0;
   }
 
-  .footer-nav a {
-    font: 1.1rem Italiana, serif;
-    text-transform: uppercase;
-  }
-
   .footer-nav a:hover,
   .footer-nav a:focus {
     color: #faba63;
@@ -467,15 +467,11 @@ address h4 {
   }
 
   .footer-nav, address {
-    width: calc(20%);
+    width: 20%;
   }
 
   form {
     width: 60%;
-  }
-
-  .copyright {
-    clear: both;
   }
 }
 
