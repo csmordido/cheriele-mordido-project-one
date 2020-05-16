@@ -96,7 +96,7 @@ h1 {
   background-color: #14171f;
 }
 
-.collection, .materials, .mix-match {
+.collection, .abt-product {
   background-color: #201e21;
 }
 
@@ -157,6 +157,11 @@ h2 {
 
 .item h3 {
   font-size: 1.8rem;
+}
+
+.materials-text, 
+.mix-match-text {
+  padding: 50px 5%;
 }
 
 .footer-nav {
@@ -420,26 +425,22 @@ address h4 {
     color: #fff;
   }
 
-  .materials-img, .mix-match .content {
+  .materials-img, .mix-match-text {
     float: right;
     width: 50%;
   }
 
-  .materials .content, .mix-match-img {
+  .materials-text, .mix-match-img {
     float: left;
     width: 50%;
   }
 
-  .materials .content {
-    padding: 115px;
+  .mix-match-img {
+    clear: both;
   }
 
-  .materials .content span {
+  .materials-text span {
     display: block;
-  }
-
-  .mix-match .content {
-    padding: 150px 115px;
   }
 
   .footer-nav {
@@ -464,6 +465,7 @@ address h4 {
   input[type="email"], button {
     display: inline-block;
     margin: 0;
+    width: auto;
   }
 
   input[type="email"] {
@@ -476,7 +478,7 @@ address h4 {
   button {
     max-width: 150px;
     font-size: 1.1rem;
-    padding: 13px 0;
+    padding: 13px 15px;
     margin-left: -5px;
   }
 
