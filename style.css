@@ -278,7 +278,7 @@ address h4 {
   }
 }
 
-/* for desktops */
+/* for large desktops */
 @media (min-width: 940px) {
   header {
     background-image: url('./images/header-bg.jpg');
@@ -439,6 +439,32 @@ address h4 {
     clear: both;
   }
 
+  .materials-text,
+  .mix-match-text {
+    position: relative;
+    padding: 0;
+  }
+
+  .materials-text .content,
+  .mix-match-text .content {
+    position: absolute;
+    max-width: 450px;
+    margin: 0 auto;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+  .materials-text .content {
+    padding-top: 105px;
+  }
+
+  .mix-match-text .content {
+    padding-top: 140px;
+  }
+
+
   .materials-text span {
     display: block;
   }
@@ -465,7 +491,6 @@ address h4 {
   input[type="email"], button {
     display: inline-block;
     margin: 0;
-    width: auto;
   }
 
   input[type="email"] {
