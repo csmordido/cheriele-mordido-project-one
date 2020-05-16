@@ -309,7 +309,8 @@ address h4 {
     display: inline-block;
   }
 
-  .top-nav-links a:hover::after {
+  .top-nav-links a:hover::after,
+  .top-nav-links a:focus::after {
     content: '';
     width: 10px;
     height: 10px;
@@ -325,6 +326,7 @@ address h4 {
   }
 
   .site-title {
+    top: 170px;
     left: 50px;
   }
 
